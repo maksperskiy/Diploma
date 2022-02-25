@@ -19,7 +19,7 @@ mp_holistic = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
-model = load_model('action.h5')
+model = load_model('models/action.h5')
 
 # model = Sequential()
 # model.add(LSTM(64, return_sequences=True, activation='relu', input_shape=(40,126)))
